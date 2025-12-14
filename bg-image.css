@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image {
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}

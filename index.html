@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+</head>
+<body>
+
+    <section class="h-screen w-full bg-[url(./images/mobile/image-hero.jpg)] bg-cover md:h-[90%] md:bg-[url(./images/desktop/image-hero.jpg)]">
+      <header class="text-white">
+          <nav class="w-10/12 container mx-auto py-10 flex justify-between items-center">
+              <!-- logo -->
+              <div>
+                  <img src="./images/logo.svg" alt="logo" class="w-40">
+              </div>
+              <!-- set of links -->
+              <ul class="hidden md:flex gap-8 font-small text-[14px]">
+                  <li><a href="#" class="hover:underline">About</a></li>
+                  <li><a href="#" class="hover:underline">Careers</a></li>
+                  <li><a href="#" class="hover:underline">Events</a></li>
+                  <li><a href="#" class="hover:underline">Products</a></li>
+                  <li><a href="#" class="hover:underline">Support</a></li>
+              </ul>
+              <!-- mobile view icon -->
+                <div class="space-y-1 md:hidden">
+                  <img src="./images/icon-hamburger.svg" alt="">
+                </div>
+          </nav>        
+      </header>
+
+          <!-- background text  -->
+          <div class="w-10/12 container mx-auto py-18 ">
+            <div class="py-4 px-2 border border-white md:max-w-160 md:w-full ">
+              <h1 class="text-white text-4xl md:text-8xl px-5 font-[100] ">IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+            </div>
+            
+          </div>
+      
+    </section>
+
+    <main class="w-10/12 container mx-auto py-16">
+      <div class="md:relative py-16">
+        <div>
+          <img src="./images/desktop/image-interactive.jpg" alt="" class="hidden md:block">
+          <img src="./images/mobile/image-interactive.jpg" alt="" class="block md:hidden">
+        </div>
+
+        <div class="text-center  md:absolute md:text-start md:top-[150px] bg-white md:right-20 md:h-80 md:w-140 md:px-20 md:p-8">
+          <h3 class="text-3xl py-6 md:text-5xl">THE LEADER IN INTERACTIVE VR</h3>
+          <p class="text-[14px]"> Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+        </div>
+      </div>
+
+      <div class="text-center md:flex items-center justify-between py-8 ">
+        <h3 class="text-3xl py-6">OUR CREATIONS</h3>
+        <button class="hidden md:block border border-black py-1 px-6 font-semibold cursor-pointer hover:bg-black hover:text-white">SEE ALL</button>
+      </div>
+
+        <div class="md:grid grid-cols-4 space-y-4 gap-4">
+          <div class="relative">
+            <img src="./images/mobile/image-deep-earth.jpg" alt="" class="block md:hidden ">
+            <img src="./images/desktop/image-deep-earth.jpg" alt="" class=" hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">DEEP EARTH</h1>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/mobile/image-night-arcade.jpg" alt="" class="block md:hidden">
+            <img src="./images/desktop/image-night-arcade.jpg" alt="" class="hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">NIGHT ARCADE</h1>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/mobile/image-soccer-team.jpg" alt="" class="block md:hidden">
+            <img src="./images/desktop/image-soccer-team.jpg" alt="" class="hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">SOCCER TEAM VR</h1>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/mobile/image-grid.jpg" alt="" class="block md:hidden">
+            <img src="./images/desktop/image-grid.jpg" alt="" class="hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">THE GRID</h1>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/mobile/image-from-above.jpg" alt="" class="block md:hidden">
+            <img src="./images/desktop/image-from-above.jpg" alt="" class="hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">FROM UP ABOVE VR</h1>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/mobile/image-pocket-borealis.jpg" alt="" class="block md:hidden">
+            <img src="./images/desktop/image-pocket-borealis.jpg" alt="" class="hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">POCKET BOREALIS</h1>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/mobile/image-curiosity.jpg" alt="" class="block md:hidden">
+            <img src="./images/desktop/image-curiosity.jpg" alt="" class="hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">THE CURIOSITY</h1>
+            </div>
+          </div>
+          <div class="relative">
+            <img src="./images/mobile/image-fisheye.jpg" alt="" class="block md:hidden">
+            <img src="./images/desktop/image-fisheye.jpg" alt="" class="hidden md:block w-full">
+            <div class="absolute top-10 inset-0 flex items-center px-6 md:w-60 md:top-70">
+              <h1 class="text-white font-[100] md:text-4xl">MAKE IT FISHEYE</h1>
+            </div>
+          </div>
+        </div>
+      
+    </main>
+
+    <footer class="bg-black text-white py-10 ">
+      <div class="w-10/12 container mx-auto space-y-6 md:flex grid-cols-2 justify-between">
+        <div class="space-y-6 ">
+          <div class="flex flex-col items-center md:flex-row">
+            <img src="./images/logo.svg" alt="logo" class="w-30">
+          </div>
+          
+          <div class="flex flex-col items-center gap-2 md:flex-row">
+            <a href="#" class="hover:underline">About</a>
+            <a href="#" class="hover:underline">Careers</a>
+            <a href="#" class="hover:underline">Events</a>
+            <a href="#" class="hover:underline">Products</a>
+            <a href="#" class="hover:underline">Support</a>
+          </div>
+        </div>
+
+        <div class="space-y-6 ">
+          <div class="flex flex-row justify-center gap-4 md:ml-24">
+            <img src="./images/icon-facebook.svg" alt="" >
+            <img src="./images/icon-twitter.svg" alt="">
+            <img src="./images/icon-pinterest.svg" alt="">
+            <img src="./images/icon-instagram.svg" alt="">
+          </div>
+          <div class="text-[14px] text-center">
+            <p class="text-[#d9d9d9ff]">© 2021 Loopstudios. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+
+</body>
+</html>
